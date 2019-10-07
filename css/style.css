@@ -51,6 +51,7 @@ li > a:hover {
     transition: .2s all;
     text-decoration: none;
     background-color: #D18800;
+    color: #fff;
 }
 
 /* .overlay {
@@ -92,16 +93,10 @@ li > a:hover {
 }
 
 .titulo_funcionario {
-    font-size: 40px;
+    font-size: 35px;
     color: #ffa500;
     margin-top: 100px;
-    font-family: 
-}
-
-.funcionarios {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .div_sub {
@@ -120,16 +115,10 @@ li > a:hover {
     margin: 5px 30px;
 }
 
-.nomes_funcionarios {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.nomes > li {
-    margin: 0px 50px;
-}
-
 .funcionario_img {
     width: 130px;
+}
+
+.nomes {
+    text-align: center;
 }
