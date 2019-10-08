@@ -10,6 +10,13 @@ html {
     scroll-behavior: smooth;
 }
 
+.menu {
+    width: 100vw;
+    z-index: 100;
+    top: 0;
+    position: fixed;
+}
+
 .menu_bar {
     background-color: #ffa500;
     text-decoration: none;
@@ -121,4 +128,8 @@ li > a:hover {
 
 .nomes {
     text-align: center;
+}
+
+.foto_lateral {
+    
 }
