@@ -26,6 +26,16 @@ html {
     padding-right: 80px;    
 }
 
+.logo {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 2%;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    margin: 10px 0px 0px 20px;
+    left: 0;
+}
+
 .lista_menu {
     list-style-type: none;
     margin: 0;
@@ -97,6 +107,7 @@ li > a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 50px;
 }
 
 .titulo_funcionario {
@@ -128,8 +139,77 @@ li > a:hover {
 
 .nomes {
     text-align: center;
+    margin-top: 40px;
 }
 
 .foto_lateral {
     
 }
+
+.titulo_contato {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #ffa500;
+    margin: 60px 0 40px 0;
+}
+
+/* Formulario de contato */
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .form-contact {
+    width: 100%;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-input {
+    width: 50%;
+    color: #292929;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+  .form-contact-textarea {
+    width: 50%;
+    color: #333;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+  }
+
+  .form-contact-button {
+    width: 30%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #ffa500;
+    display: block;
+    border: none;
+    transition: 1s;
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }

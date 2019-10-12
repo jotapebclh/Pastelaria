@@ -14,22 +14,26 @@
     </head>
 <body>
 
-    <!-- style="position: fixed; top: 0; z-index: 100; width: 10vw; box-sizing: border-box" -->
     <div class="menu">
         <nav class="menu_bar">
             <div class="barra">
+                    <div>
+                        <p class="logo">
+                            Sabor da Ilha
+                        </p>
+                    </div>
                 <ul class="lista_menu">
-                    <li class="inicio"><a href="">Início</a></li>
+                    <li class="inicio"><a href="#anc_topo">Início</a></li>
                     <li class="sobre"><a href="#anc_sobre">Sobre</a></li>
                     <li class="pastel"><a href="#pasteis">Nossos Pastéis</a></li>
-                    <li class="participar"><a href="">Quero Participar</a></li>
+                    <li class="participar"><a href="#anc_contato">Quero Participar</a></li>
                 </ul>
             </div>
         </nav>
     </div>
 
     <!-- Banner -->
-    <section style="position: relative;">
+    <section style="position: relative; top: 65px" id="anc_topo">
         <div> 
             <div class="banner">
                 <h1 class="titulo_banner">Participe!</h1>
@@ -39,7 +43,7 @@
     </section>
 
     <!-- Sobre a empresa -->
-    <section style="position: relative" id="anc_sobre">
+    <section style="position: relative;" id="anc_sobre">
         <div class="div_titulo">
             <h1 class="titulo_funcionario">Conheça nossa Empresa!</h1>
         </div>
@@ -102,6 +106,36 @@
                 </div>
             </div>
         </div>
+
+        <!-- Participe -->
+
+        <section>
+           <div class="container">
+               
+                <div class="col-md-12 titulo_contato">
+                        <p>Entre em contato conosco!</p>
+                    </div>    
+               <form action="#" class="form-contact" method="post" tabindex="1">  
+                   <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />  
+                   <input type="email" class="form-contact-input" name="email" placeholder="Email" required />  
+                   <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />  
+                   <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>  
+                   <button type="submit" class="form-contact-button">Enviar</button>  
+            </form>  
+          </div>  
+        </section>
+
+        <!-- Rodapé -->
+
+        <section style="margin-top: 100px">
+            <div>
+                <footer>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem debitis enim incidunt repellendus atque asperiores voluptatem adipisci commodi voluptatum in maxime natus ducimus, libero recusandae quisquam nesciunt, a quae.</p>
+                    </div>
+                </footer>
+            </div>
+        </section>
 
 </body>
 </html>
