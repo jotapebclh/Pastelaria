@@ -7,7 +7,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <!-- Fonts -->
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
         <title>Sabor da Ilha | Pastelaria</title>
@@ -87,7 +89,7 @@
 
     <!-- Nossos pastéis -->
 
-        <div class="container" style="margin-top: 50px;" id="pasteis">
+        <div class="container" id="pasteis">
             <div class="row">
                 <div class="col-md-12">
                     <div class="div_titulo">
@@ -109,19 +111,19 @@
 
         <!-- Participe -->
 
-        <section>
-           <div class="container">
-               
+        <section id="anc_contato" class="pb-5 pt-5">
+           <div class="container">               
                 <div class="col-md-12 titulo_contato">
-                        <p>Entre em contato conosco!</p>
-                    </div>    
-               <form action="#" class="form-contact" method="post" tabindex="1">  
-                   <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />  
-                   <input type="email" class="form-contact-input" name="email" placeholder="Email" required />  
-                   <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />  
-                   <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>  
-                   <button type="submit" class="form-contact-button">Enviar</button>  
-            </form>  
+                    <p>Entre em contato conosco!</p>
+				</div>	
+				<div class="contato_div">			
+					<form action="#" class="form-contact" method="post" tabindex="1">  
+						<input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />  
+						<input type="email" class="form-contact-input" name="email" placeholder="Email" required />  
+						<input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" /> 
+						<button type="submit" class="form-contact-button">Enviar</button>  
+					</form>
+				</div>  
           </div>  
         </section>
 
@@ -129,10 +131,22 @@
 
         <section style="margin-top: 100px">
             <div>
-                <footer>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem debitis enim incidunt repellendus atque asperiores voluptatem adipisci commodi voluptatum in maxime natus ducimus, libero recusandae quisquam nesciunt, a quae.</p>
-                    </div>
+                <footer class="footer">
+                    <div class="div_footer">
+						<div class="row">
+							<div class="col-md-3">
+								<p class="redes">Redes sociais Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit fugiat animi dicta sapiente quasi sit, quam, porro velit maiores laboriosam minus facere nesciunt hic excepturi. Vitae eos doloremque ipsum molestiae.</p>
+							</div>
+
+							<div class="col-md-5">
+								<p class="" style="color: #fff;">Alguma coisa Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque distinctio exercitationem aut maxime facere laboriosam suscipit sunt reiciendis tempora iusto quidem accusantium, quisquam illo tempore voluptates hic earum fuga adipisci.</p>
+							</div>
+
+							<div class="col-md-4">
+								<p class="endereco">Endereço da pastelaria Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel saepe repellendus architecto cupiditate quidem odio ab, perferendis sit debitis labore itaque ut dolores suscipit non nihil natus rerum animi praesentium!</p>
+							</div>
+						</div>
+					</div>
                 </footer>
             </div>
         </section>
