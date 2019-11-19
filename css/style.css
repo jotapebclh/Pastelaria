@@ -34,7 +34,7 @@ p, li, h2, h3, h4, h5, h6 {
     color: #fff;
     font-size: 25px;
     margin-top: 2%;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive !important;
     position: absolute;
     margin: 10px 0px 0px 20px;
     left: 0;
@@ -106,20 +106,6 @@ li > a:hover {
     background-color: rgba(0, 0, 0, .5);
  }
 
-.titulo_banner {
-    color: #fff;
-    font-size: 80px;
-    font-family: 'Dancing Script', cursive;
-    margin: 0px;
-    z-index: 2;
-}
-
-.text_banner {
-    color: #FFF;
-    font-size: 25px;
-    z-index: 2;
-}
-
 .div_titulo {
     display: flex;
     width: 100%;
@@ -160,10 +146,6 @@ li > a:hover {
 .nomes {
     text-align: center;
     margin-top: 40px;
-}
-
-.foto_lateral {
-    
 }
 
 .titulo_contato {
@@ -215,6 +197,7 @@ li > a:hover {
     transition: .3s ease-in-out;
     margin: auto;
     margin-top: 50px;
+    border-radius: 50px;
   }
   
   .form-contact-button:hover {
@@ -256,4 +239,48 @@ li > a:hover {
 
 .infos {
     color: #fff;
+}
+
+.titulo_texto {
+    color: #FFF;
+    z-index: 10;
+    font-size: 80px;
+    font-family: 'Dancing Script', cursive !important;
+}
+
+.banner_texto {
+    color: #FFF;
+    z-index: 10;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive !important;
+    margin: 0;
+    padding: 0;
+}
+
+.div_texto {
+    z-index: 10;
+}
+
+.btn_participe {
+    background-color: #ffa500;
+    color: #FFF;
+    font-size: 22px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 30px 10px 30px;
+    border: 1px solid #ffa500;
+    transition: .3s ease-in-out;
+    margin-top: 20px;
+}
+
+.btn_participe:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.div_banner {
+    left: 190px;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
 }
